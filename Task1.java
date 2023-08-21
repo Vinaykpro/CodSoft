@@ -23,7 +23,6 @@ class Task1 {
             System.out.println("\nRound "+roundCount+":");
             canWeStartTheRound = false;
             int randomNumber = (int)(Math.random() * 100) + 1;
-            randomNumber = 15;
             int numOfAttemptsRemaining = totalAttempts;
             while(numOfAttemptsRemaining>=1) {
                 System.out.print("\nEnter your guess ("+numOfAttemptsRemaining+" chances available) :");
@@ -49,7 +48,7 @@ class Task1 {
                 }
             }
             if(numOfAttemptsRemaining==0) {
-                System.out.println("You lost this round the number was "+randomNumber);
+                System.out.println("\nYou lost this round the number was "+randomNumber);
             }
             boolean humanError = true;
             while(humanError) {
