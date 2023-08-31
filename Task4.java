@@ -77,7 +77,7 @@ class Task4 {
             Thread.sleep(6000);
         } catch (Exception e) {};
         for(int i=0;i<10;i++) {
-            System.out.print(mcqs[i]);
+            System.out.print("\n\n"+(i+1)+"."+mcqs[i]);
             System.out.print(answersWithExplanations[i]);
         }
     }
